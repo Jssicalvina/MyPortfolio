@@ -5,9 +5,11 @@ import Navbar from '../partials/Navbar';
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className="min-h-screen bg-white">
             <Navbar />
-            <Outlet />
+            <div className ='container p-10'>
+                <Outlet />
+            </div>
         </div>
     );
 };

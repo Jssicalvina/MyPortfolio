@@ -11,11 +11,18 @@ export default {
     fontFamily: {
       leagueSpartan: ["League Spartan", "serif"]
     },
+    colors: {
+      'lime': '#d7f266',
+      'black': '#151514',
+      'white': '#f7f8f6',
+      'gray': '#d3ddda',
+    },
+    container: {
+      center: true
+    },
     extend: {},
   },
-  plugins: [daisyui, scrollbarHide],
-  daisyui: {
-    theme: ['sunset']
-  }
+  plugins: [ scrollbarHide],
+  
 };
 
