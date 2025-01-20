@@ -12,17 +12,18 @@ export default {
       leagueSpartan: ["League Spartan", "serif"]
     },
     colors: {
-      'lime': '#d7f266',
-      'black': '#151514',
       'white': '#f7f8f6',
-      'gray': '#d3ddda',
+      'black': '#151514',
+      'black-1': '#272c39',
+      'lime': '#d7f266',
+      'grey': '#d3ddda',
     },
     container: {
       center: true
     },
     extend: {},
   },
-  plugins: [ scrollbarHide],
+  plugins: [daisyui, scrollbarHide],
   
 };
 
